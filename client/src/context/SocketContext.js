@@ -13,7 +13,7 @@ const SocketContextProvider = ({ children }) => {
   const location = useLocation();
 
   useEffect(() => {
-    const socket = io(process.env.REACT_APP_SOCKET_URL);
+    const socket = io('https://rock-paper-scissor-backend.vercel.app');
     setSocket(socket);
 
     socket.on("room:get", (payload) => {
