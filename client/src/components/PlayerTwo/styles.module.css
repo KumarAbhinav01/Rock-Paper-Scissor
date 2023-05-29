@@ -107,18 +107,18 @@
 /* Media Queries */
 @media screen and (max-width: 768px) {
   .rock_right_hand_img {
-    width: 250px;
-    padding: 30px 0;
+    width: 220px;
+    padding: 50px 0;
   }
 
   .scissors_right_hand_img {
-    width: 300px;
+    width: 220px;
     margin-top: 15px;
     margin-right: -10px;
   }
 
   .paper_right_hand_img {
-    width: 330px;
+    width: 220px;
     margin-right: -30px;
   }
 
@@ -134,17 +134,17 @@
   }
 
   .player_info {
-    top: 0px;
-    right: 10px;
+    top: 15px;
+    right: 15px;
   }
 
   .star_container {
-    margin-right: 10px;
+    margin-right: 5px;
   }
 
   .star {
-    width: 30px !important;
-    height: 30px !important;
+    width: 25px !important;
+    height: 25px !important;
     margin: 0 2px;
   }
 
