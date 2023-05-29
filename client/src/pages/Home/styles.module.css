@@ -56,19 +56,20 @@
   .logo {
     padding: 20px;
     width: 90%;
-    margin: 20px;
+    margin: 40px;
     max-width: 700px;
   }
 
   .paper_hand {
     width: 50%;
     max-width: 500px;
-    right: -25px;
+    top: 20px;
+    right: -15px;
   }
 
   .rock_hand {
     width: 50%;
-    bottom: -50px;
+    bottom: -20px;
   }
 
   .btn_container {
