@@ -31,7 +31,7 @@ const PlayerTwo = ({ result }) => {
     <div className={styles.container}>
       {!player_2 && room.type === "friend" && (
         <JoinLink
-          link={`https://rock-paper-scissor-abhi6722.vercel.app/room/${room.roomId}`}
+          link={`https://clash-of-fists.vercel/room/${room.roomId}`}
         />
       )}
       {!player_2 && (
