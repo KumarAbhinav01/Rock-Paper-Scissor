@@ -47,13 +47,14 @@
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   .rock_hand {
     width: 220px;
+  }
+
+  .win_background_img {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
   }
 
   .scissors_hand {
@@ -61,12 +62,9 @@
   }
 
   .board_img {
-    width: 100%;
-    max-width: 300px;
-    position: absolute;
-    align-items: center;
-    top: 0;
-    left: 0;
+    width: 300px;
+    max-width: 400px;
+    left: calc(50% - 30%);
   }
 
   .btn_container {
